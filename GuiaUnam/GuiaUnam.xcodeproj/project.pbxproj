@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D386A16A6ECBCFB46650CD2 /* Pods_GuiaUnamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B955E9E19C8B5D213F4C07FE /* Pods_GuiaUnamUITests.framework */; };
+		5EC21D7156527A8533EFC6DA /* Pods_GuiaUnam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84097D317D591455A4AA43A /* Pods_GuiaUnam.framework */; };
+		CE613AB921ED88BE0066E0F1 /* MenuElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE613AB821ED88BE0066E0F1 /* MenuElement.swift */; };
+		CE613ABB21ED94F50066E0F1 /* MenuElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE613ABA21ED94F50066E0F1 /* MenuElementCell.swift */; };
+		CE6DDFA321EC49380060D018 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDFA221EC49380060D018 /* ContainerViewController.swift */; };
+		CE6DDFA521EC497E0060D018 /* CollectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDFA421EC497E0060D018 /* CollectionViewControllerDelegate.swift */; };
+		CE6DDFA921EC4C690060D018 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDFA821EC4C690060D018 /* SidePanelViewController.swift */; };
+		CE6DDFAB21EC4C9D0060D018 /* SidePanelViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDFAA21EC4C9D0060D018 /* SidePanelViewControllerDelegate.swift */; };
+		CEE798422204289F009E14ED /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE798412204289E009E14ED /* PushViewController.swift */; };
+		EE4ACEE821E66C17002651C0 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4ACEE721E66C17002651C0 /* Museum.swift */; };
+		EE4ACEF021E94B6D002651C0 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4ACEEF21E94B6D002651C0 /* InfoViewController.swift */; };
+		EE8EA12121F2949F007DD356 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8EA12021F2949E007DD356 /* ItemCell.xib */; };
+		EE8EA12421F2988C007DD356 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EA12321F2988C007DD356 /* ImageService.swift */; };
+		EEB7DAAB2203D6D000C699E5 /* TemporalEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7DAA92203D6D000C699E5 /* TemporalEventsViewController.swift */; };
+		EEB7DAAC2203D6D000C699E5 /* TemporalEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB7DAAA2203D6D000C699E5 /* TemporalEventsViewController.xib */; };
+		EECC06D521D6C5B9003586B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECC06D421D6C5B9003586B6 /* AppDelegate.swift */; };
+		EECC06DA21D6C5B9003586B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECC06D821D6C5B9003586B6 /* Main.storyboard */; };
+		EECC06DC21D6C5BA003586B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECC06DB21D6C5BA003586B6 /* Assets.xcassets */; };
+		EECC06DF21D6C5BA003586B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECC06DD21D6C5BA003586B6 /* LaunchScreen.storyboard */; };
+		EECC06EA21D6C5BA003586B6 /* GuiaUnamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECC06E921D6C5BA003586B6 /* GuiaUnamTests.swift */; };
+		EECC06F521D6C5BA003586B6 /* GuiaUnamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECC06F421D6C5BA003586B6 /* GuiaUnamUITests.swift */; };
+		EECC070521D7BA01003586B6 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECC070321D7BA01003586B6 /* ItemCell.swift */; };
+		EECC070821D7BBE4003586B6 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECC070721D7BBE4003586B6 /* CollectionViewController.swift */; };
+		EEE6DF0321E5348100F52CF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEE6DF0221E5348100F52CF7 /* GoogleService-Info.plist */; };
+		EFBE54A82BB2A5024F14FF9A /* Pods_GuiaUnamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECEA7E612D3FD1027FD50DF /* Pods_GuiaUnamTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EECC06E621D6C5BA003586B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECC06C921D6C5B9003586B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECC06D021D6C5B9003586B6;
+			remoteInfo = GuiaUnam;
+		};
+		EECC06F121D6C5BA003586B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECC06C921D6C5B9003586B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECC06D021D6C5B9003586B6;
+			remoteInfo = GuiaUnam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58C3EE7AB8FACD60ACCF5957 /* Pods-GuiaUnam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiaUnam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuiaUnam/Pods-GuiaUnam.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0FDEC0CFDEF225A7427A01 /* Pods-GuiaUnam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiaUnam.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuiaUnam/Pods-GuiaUnam.release.xcconfig"; sourceTree = "<group>"; };
+		A3927035AF282D0188A3163D /* Pods-GuiaUnamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiaUnamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuiaUnamTests/Pods-GuiaUnamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A84097D317D591455A4AA43A /* Pods_GuiaUnam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiaUnam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFB102E743CBE4647903B38 /* Pods-GuiaUnamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiaUnamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuiaUnamTests/Pods-GuiaUnamTests.release.xcconfig"; sourceTree = "<group>"; };
+		B955E9E19C8B5D213F4C07FE /* Pods_GuiaUnamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiaUnamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECEA7E612D3FD1027FD50DF /* Pods_GuiaUnamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiaUnamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F081D2EC16ED303B9AEB67 /* Pods-GuiaUnamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiaUnamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuiaUnamUITests/Pods-GuiaUnamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE613AB821ED88BE0066E0F1 /* MenuElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuElement.swift; sourceTree = "<group>"; };
+		CE613ABA21ED94F50066E0F1 /* MenuElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuElementCell.swift; sourceTree = "<group>"; };
+		CE6DDFA221EC49380060D018 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		CE6DDFA421EC497E0060D018 /* CollectionViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerDelegate.swift; sourceTree = "<group>"; };
+		CE6DDFA821EC4C690060D018 /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		CE6DDFAA21EC4C9D0060D018 /* SidePanelViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewControllerDelegate.swift; sourceTree = "<group>"; };
+		CEE798412204289E009E14ED /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		EE4ACEE721E66C17002651C0 /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		EE4ACEEF21E94B6D002651C0 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		EE8EA12021F2949E007DD356 /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		EE8EA12321F2988C007DD356 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		EEB7DAA92203D6D000C699E5 /* TemporalEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporalEventsViewController.swift; sourceTree = "<group>"; };
+		EEB7DAAA2203D6D000C699E5 /* TemporalEventsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemporalEventsViewController.xib; sourceTree = "<group>"; };
+		EECC06D121D6C5B9003586B6 /* GuiaUnam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiaUnam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECC06D421D6C5B9003586B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EECC06D921D6C5B9003586B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECC06DB21D6C5BA003586B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EECC06DE21D6C5BA003586B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EECC06E021D6C5BA003586B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECC06E521D6C5BA003586B6 /* GuiaUnamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiaUnamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECC06E921D6C5BA003586B6 /* GuiaUnamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiaUnamTests.swift; sourceTree = "<group>"; };
+		EECC06EB21D6C5BA003586B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECC06F021D6C5BA003586B6 /* GuiaUnamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiaUnamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECC06F421D6C5BA003586B6 /* GuiaUnamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiaUnamUITests.swift; sourceTree = "<group>"; };
+		EECC06F621D6C5BA003586B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECC070321D7BA01003586B6 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		EECC070721D7BBE4003586B6 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EEE6DF0221E5348100F52CF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F920C3A1E817C03368D6686F /* Pods-GuiaUnamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiaUnamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuiaUnamUITests/Pods-GuiaUnamUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECC06CE21D6C5B9003586B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC21D7156527A8533EFC6DA /* Pods_GuiaUnam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECC06E221D6C5BA003586B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBE54A82BB2A5024F14FF9A /* Pods_GuiaUnamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECC06ED21D6C5BA003586B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D386A16A6ECBCFB46650CD2 /* Pods_GuiaUnamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9D8C3031F4FB88345245B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58C3EE7AB8FACD60ACCF5957 /* Pods-GuiaUnam.debug.xcconfig */,
+				9C0FDEC0CFDEF225A7427A01 /* Pods-GuiaUnam.release.xcconfig */,
+				A3927035AF282D0188A3163D /* Pods-GuiaUnamTests.debug.xcconfig */,
+				AAFB102E743CBE4647903B38 /* Pods-GuiaUnamTests.release.xcconfig */,
+				C7F081D2EC16ED303B9AEB67 /* Pods-GuiaUnamUITests.debug.xcconfig */,
+				F920C3A1E817C03368D6686F /* Pods-GuiaUnamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF883A11D3E9CCD350EACA8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84097D317D591455A4AA43A /* Pods_GuiaUnam.framework */,
+				BECEA7E612D3FD1027FD50DF /* Pods_GuiaUnamTests.framework */,
+				B955E9E19C8B5D213F4C07FE /* Pods_GuiaUnamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE44277721D6D63F00880058 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EECC070721D7BBE4003586B6 /* CollectionViewController.swift */,
+				CE6DDFA221EC49380060D018 /* ContainerViewController.swift */,
+				CE6DDFA821EC4C690060D018 /* SidePanelViewController.swift */,
+				CE6DDFA421EC497E0060D018 /* CollectionViewControllerDelegate.swift */,
+				EE4ACEEF21E94B6D002651C0 /* InfoViewController.swift */,
+				CEE798412204289E009E14ED /* PushViewController.swift */,
+				CE6DDFAA21EC4C9D0060D018 /* SidePanelViewControllerDelegate.swift */,
+				EEB7DAA92203D6D000C699E5 /* TemporalEventsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE7920AA21E0173600D96FF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE4ACEE721E66C17002651C0 /* Museum.swift */,
+				CE613AB821ED88BE0066E0F1 /* MenuElement.swift */,
+				CE613ABA21ED94F50066E0F1 /* MenuElementCell.swift */,
+				EECC070321D7BA01003586B6 /* ItemCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE8EA12221F2982F007DD356 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EE8EA12321F2988C007DD356 /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EECC06C821D6C5B9003586B6 = {
+			isa = PBXGroup;
+			children = (
+				EECC06D321D6C5B9003586B6 /* GuiaUnam */,
+				EECC06E821D6C5BA003586B6 /* GuiaUnamTests */,
+				EECC06F321D6C5BA003586B6 /* GuiaUnamUITests */,
+				EECC06D221D6C5B9003586B6 /* Products */,
+				8E9D8C3031F4FB88345245B0 /* Pods */,
+				BF883A11D3E9CCD350EACA8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EECC06D221D6C5B9003586B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECC06D121D6C5B9003586B6 /* GuiaUnam.app */,
+				EECC06E521D6C5BA003586B6 /* GuiaUnamTests.xctest */,
+				EECC06F021D6C5BA003586B6 /* GuiaUnamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECC06D321D6C5B9003586B6 /* GuiaUnam */ = {
+			isa = PBXGroup;
+			children = (
+				EE8EA12221F2982F007DD356 /* Services */,
+				CE7920AA21E0173600D96FF4 /* Models */,
+				EECC070221D7B9E0003586B6 /* Views */,
+				CE44277721D6D63F00880058 /* Controllers */,
+				EECC06DB21D6C5BA003586B6 /* Assets.xcassets */,
+				EECC06D421D6C5B9003586B6 /* AppDelegate.swift */,
+				EECC06D821D6C5B9003586B6 /* Main.storyboard */,
+				EECC06DD21D6C5BA003586B6 /* LaunchScreen.storyboard */,
+				EEE6DF0221E5348100F52CF7 /* GoogleService-Info.plist */,
+				EECC06E021D6C5BA003586B6 /* Info.plist */,
+			);
+			path = GuiaUnam;
+			sourceTree = "<group>";
+		};
+		EECC06E821D6C5BA003586B6 /* GuiaUnamTests */ = {
+			isa = PBXGroup;
+			children = (
+				EECC06E921D6C5BA003586B6 /* GuiaUnamTests.swift */,
+				EECC06EB21D6C5BA003586B6 /* Info.plist */,
+			);
+			path = GuiaUnamTests;
+			sourceTree = "<group>";
+		};
+		EECC06F321D6C5BA003586B6 /* GuiaUnamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EECC06F421D6C5BA003586B6 /* GuiaUnamUITests.swift */,
+				EECC06F621D6C5BA003586B6 /* Info.plist */,
+			);
+			path = GuiaUnamUITests;
+			sourceTree = "<group>";
+		};
+		EECC070221D7B9E0003586B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE8EA12021F2949E007DD356 /* ItemCell.xib */,
+				EEB7DAAA2203D6D000C699E5 /* TemporalEventsViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECC06D021D6C5B9003586B6 /* GuiaUnam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECC06F921D6C5BA003586B6 /* Build configuration list for PBXNativeTarget "GuiaUnam" */;
+			buildPhases = (
+				0210F469C65ADC92FAB0BF70 /* [CP] Check Pods Manifest.lock */,
+				EECC06CD21D6C5B9003586B6 /* Sources */,
+				EECC06CE21D6C5B9003586B6 /* Frameworks */,
+				EECC06CF21D6C5B9003586B6 /* Resources */,
+				A5977D7BA2E768AC90AE375C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuiaUnam;
+			productName = GuiaUnam;
+			productReference = EECC06D121D6C5B9003586B6 /* GuiaUnam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECC06E421D6C5BA003586B6 /* GuiaUnamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECC06FC21D6C5BA003586B6 /* Build configuration list for PBXNativeTarget "GuiaUnamTests" */;
+			buildPhases = (
+				7735207806D339D035D646FC /* [CP] Check Pods Manifest.lock */,
+				EECC06E121D6C5BA003586B6 /* Sources */,
+				EECC06E221D6C5BA003586B6 /* Frameworks */,
+				EECC06E321D6C5BA003586B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECC06E721D6C5BA003586B6 /* PBXTargetDependency */,
+			);
+			name = GuiaUnamTests;
+			productName = GuiaUnamTests;
+			productReference = EECC06E521D6C5BA003586B6 /* GuiaUnamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EECC06EF21D6C5BA003586B6 /* GuiaUnamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECC06FF21D6C5BA003586B6 /* Build configuration list for PBXNativeTarget "GuiaUnamUITests" */;
+			buildPhases = (
+				E5BE694411C16716F0313A1C /* [CP] Check Pods Manifest.lock */,
+				EECC06EC21D6C5BA003586B6 /* Sources */,
+				EECC06ED21D6C5BA003586B6 /* Frameworks */,
+				EECC06EE21D6C5BA003586B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECC06F221D6C5BA003586B6 /* PBXTargetDependency */,
+			);
+			name = GuiaUnamUITests;
+			productName = GuiaUnamUITests;
+			productReference = EECC06F021D6C5BA003586B6 /* GuiaUnamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECC06C921D6C5B9003586B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Miguel Vicario";
+				TargetAttributes = {
+					EECC06D021D6C5B9003586B6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EECC06E421D6C5BA003586B6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EECC06D021D6C5B9003586B6;
+					};
+					EECC06EF21D6C5BA003586B6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EECC06D021D6C5B9003586B6;
+					};
+				};
+			};
+			buildConfigurationList = EECC06CC21D6C5B9003586B6 /* Build configuration list for PBXProject "GuiaUnam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECC06C821D6C5B9003586B6;
+			productRefGroup = EECC06D221D6C5B9003586B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECC06D021D6C5B9003586B6 /* GuiaUnam */,
+				EECC06E421D6C5BA003586B6 /* GuiaUnamTests */,
+				EECC06EF21D6C5BA003586B6 /* GuiaUnamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECC06CF21D6C5B9003586B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7DAAC2203D6D000C699E5 /* TemporalEventsViewController.xib in Resources */,
+				EECC06DF21D6C5BA003586B6 /* LaunchScreen.storyboard in Resources */,
+				EEE6DF0321E5348100F52CF7 /* GoogleService-Info.plist in Resources */,
+				EE8EA12121F2949F007DD356 /* ItemCell.xib in Resources */,
+				EECC06DC21D6C5BA003586B6 /* Assets.xcassets in Resources */,
+				EECC06DA21D6C5B9003586B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECC06E321D6C5BA003586B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECC06EE21D6C5BA003586B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0210F469C65ADC92FAB0BF70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuiaUnam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7735207806D339D035D646FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuiaUnamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5977D7BA2E768AC90AE375C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GuiaUnam/Pods-GuiaUnam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuiaUnam/Pods-GuiaUnam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BE694411C16716F0313A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuiaUnamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECC06CD21D6C5B9003586B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6DDFAB21EC4C9D0060D018 /* SidePanelViewControllerDelegate.swift in Sources */,
+				EECC070821D7BBE4003586B6 /* CollectionViewController.swift in Sources */,
+				CEE798422204289F009E14ED /* PushViewController.swift in Sources */,
+				CE6DDFA921EC4C690060D018 /* SidePanelViewController.swift in Sources */,
+				EEB7DAAB2203D6D000C699E5 /* TemporalEventsViewController.swift in Sources */,
+				CE6DDFA321EC49380060D018 /* ContainerViewController.swift in Sources */,
+				EECC06D521D6C5B9003586B6 /* AppDelegate.swift in Sources */,
+				CE613AB921ED88BE0066E0F1 /* MenuElement.swift in Sources */,
+				CE613ABB21ED94F50066E0F1 /* MenuElementCell.swift in Sources */,
+				EECC070521D7BA01003586B6 /* ItemCell.swift in Sources */,
+				CE6DDFA521EC497E0060D018 /* CollectionViewControllerDelegate.swift in Sources */,
+				EE4ACEF021E94B6D002651C0 /* InfoViewController.swift in Sources */,
+				EE4ACEE821E66C17002651C0 /* Museum.swift in Sources */,
+				EE8EA12421F2988C007DD356 /* ImageService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECC06E121D6C5BA003586B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECC06EA21D6C5BA003586B6 /* GuiaUnamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECC06EC21D6C5BA003586B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECC06F521D6C5BA003586B6 /* GuiaUnamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EECC06E721D6C5BA003586B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECC06D021D6C5B9003586B6 /* GuiaUnam */;
+			targetProxy = EECC06E621D6C5BA003586B6 /* PBXContainerItemProxy */;
+		};
+		EECC06F221D6C5BA003586B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECC06D021D6C5B9003586B6 /* GuiaUnam */;
+			targetProxy = EECC06F121D6C5BA003586B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EECC06D821D6C5B9003586B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECC06D921D6C5B9003586B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EECC06DD21D6C5BA003586B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECC06DE21D6C5BA003586B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECC06F721D6C5BA003586B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EECC06F821D6C5BA003586B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECC06FA21D6C5BA003586B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C3EE7AB8FACD60ACCF5957 /* Pods-GuiaUnam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NBL7M66S;
+				INFOPLIST_FILE = GuiaUnam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmx.GuiaUnam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EECC06FB21D6C5BA003586B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0FDEC0CFDEF225A7427A01 /* Pods-GuiaUnam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NBL7M66S;
+				INFOPLIST_FILE = GuiaUnam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmx.GuiaUnam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EECC06FD21D6C5BA003586B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3927035AF282D0188A3163D /* Pods-GuiaUnamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NBL7M66S;
+				INFOPLIST_FILE = GuiaUnamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmx.GuiaUnamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuiaUnam.app/GuiaUnam";
+			};
+			name = Debug;
+		};
+		EECC06FE21D6C5BA003586B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFB102E743CBE4647903B38 /* Pods-GuiaUnamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NBL7M66S;
+				INFOPLIST_FILE = GuiaUnamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmx.GuiaUnamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuiaUnam.app/GuiaUnam";
+			};
+			name = Release;
+		};
+		EECC070021D6C5BA003586B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F081D2EC16ED303B9AEB67 /* Pods-GuiaUnamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NBL7M66S;
+				INFOPLIST_FILE = GuiaUnamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmx.GuiaUnamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuiaUnam;
+			};
+			name = Debug;
+		};
+		EECC070121D6C5BA003586B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F920C3A1E817C03368D6686F /* Pods-GuiaUnamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NBL7M66S;
+				INFOPLIST_FILE = GuiaUnamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmx.GuiaUnamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuiaUnam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECC06CC21D6C5B9003586B6 /* Build configuration list for PBXProject "GuiaUnam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECC06F721D6C5BA003586B6 /* Debug */,
+				EECC06F821D6C5BA003586B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECC06F921D6C5BA003586B6 /* Build configuration list for PBXNativeTarget "GuiaUnam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECC06FA21D6C5BA003586B6 /* Debug */,
+				EECC06FB21D6C5BA003586B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECC06FC21D6C5BA003586B6 /* Build configuration list for PBXNativeTarget "GuiaUnamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECC06FD21D6C5BA003586B6 /* Debug */,
+				EECC06FE21D6C5BA003586B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECC06FF21D6C5BA003586B6 /* Build configuration list for PBXNativeTarget "GuiaUnamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECC070021D6C5BA003586B6 /* Debug */,
+				EECC070121D6C5BA003586B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECC06C921D6C5B9003586B6 /* Project object */;
+}
